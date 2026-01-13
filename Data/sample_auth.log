@@ -1,0 +1,93 @@
+2025-06-13T19:43:06.946448+05:30 kali sudo: pam_unix(sudo:session): session closed for user root
+2025-06-13T19:43:42.058707+05:30 kali sudo:     kali : TTY=pts/1 ; PWD=/home/kali ; USER=root ; COMMAND=/usr/bin/systemctl start rsyslog
+2025-06-13T19:43:42.060390+05:30 kali sudo: pam_unix(sudo:session): session opened for user root(uid=0) by kali(uid=1000)
+2025-06-13T19:43:42.089434+05:30 kali sudo: pam_unix(sudo:session): session closed for user root
+2025-06-13T19:43:52.344278+05:30 kali sudo:     kali : TTY=pts/1 ; PWD=/home/kali ; USER=root ; COMMAND=/usr/bin/systemctl status rsyslog
+2025-06-13T19:43:52.345661+05:30 kali sudo: pam_unix(sudo:session): session opened for user root(uid=0) by kali(uid=1000)
+2025-06-13T19:43:52.430775+05:30 kali sudo: pam_unix(sudo:session): session closed for user root
+2025-06-13T19:44:13.544783+05:30 kali sudo:     kali : TTY=pts/1 ; PWD=/home/kali ; USER=root ; COMMAND=/usr/bin/nano /etc/rsyslog.conf
+2025-06-13T19:44:13.549087+05:30 kali sudo: pam_unix(sudo:session): session opened for user root(uid=0) by kali(uid=1000)
+2025-06-13T19:45:01.980834+05:30 kali CRON[20536]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-06-13T19:45:01.991609+05:30 kali CRON[20536]: pam_unix(cron:session): session closed for user root
+2025-06-13T19:45:15.904821+05:30 kali sudo: pam_unix(sudo:session): session closed for user root
+2025-06-13T19:45:37.914350+05:30 kali sudo:     kali : TTY=pts/1 ; PWD=/home/kali ; USER=root ; COMMAND=/usr/bin/nano /etc/rsyslog.conf
+2025-06-13T19:45:37.916619+05:30 kali sudo: pam_unix(sudo:session): session opened for user root(uid=0) by kali(uid=1000)
+2025-06-13T19:46:09.126701+05:30 kali sudo: pam_unix(sudo:session): session closed for user root
+2025-06-13T19:46:19.730639+05:30 kali sudo:     kali : TTY=pts/1 ; PWD=/home/kali ; USER=root ; COMMAND=/usr/bin/systemctl restart rsyslog
+2025-06-13T19:46:19.735477+05:30 kali sudo: pam_unix(sudo:session): session opened for user root(uid=0) by kali(uid=1000)
+2025-06-13T19:46:19.926912+05:30 kali sudo: pam_unix(sudo:session): session closed for user root
+2025-06-13T19:48:10.039485+05:30 kali ssh-agent[1703]: exiting on signal 15
+2025-06-13T19:48:10.172356+05:30 kali lightdm: pam_unix(lightdm:session): session closed for user kali
+2025-06-13T19:48:10.223599+05:30 kali systemd-logind[631]: Session 2 logged out. Waiting for processes to exit.
+2025-06-13T19:48:10.350194+05:30 kali polkitd[629]: Unregistered Authentication Agent for unix-session:2 (system bus name :1.48, object path /org/gnome/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+2025-06-13T19:48:15.153615+05:30 kali lightdm: pam_unix(lightdm-greeter:session): session opened for user lightdm(uid=110) by (uid=0)
+2025-06-13T19:48:15.187779+05:30 kali systemd-logind[631]: New session c3 of user lightdm.
+2025-06-13T19:48:15.324483+05:30 kali (systemd): pam_unix(systemd-user:session): session opened for user lightdm(uid=110) by lightdm(uid=0)
+2025-06-13T19:48:15.329992+05:30 kali systemd-logind[631]: New session 12 of user lightdm.
+2025-06-13T19:48:15.807858+05:30 kali lightdm: pam_unix(lightdm-greeter:session): session opened for user lightdm(uid=110) by (uid=0)
+2025-06-13T19:48:25.080623+05:30 kali lightdm: gkr-pam: unable to locate daemon control file
+2025-06-13T19:48:25.081286+05:30 kali lightdm: gkr-pam: stashed password to try later in open session
+2025-06-13T19:48:25.233539+05:30 kali lightdm: pam_unix(lightdm-greeter:session): session closed for user lightdm
+2025-06-13T19:48:25.237097+05:30 kali lightdm: pam_unix(lightdm-greeter:session): session closed for user lightdm
+2025-06-13T19:48:25.241311+05:30 kali lightdm: pam_systemd(lightdm-greeter:session): Failed to release session: Transport endpoint is not connected
+2025-06-13T19:48:25.261077+05:30 kali systemd-logind[631]: Removed session c3.
+2025-06-13T19:48:25.262186+05:30 kali lightdm: pam_unix(lightdm:session): session opened for user kali(uid=1000) by kali(uid=0)
+2025-06-13T19:48:25.281806+05:30 kali systemd-logind[631]: New session 13 of user kali.
+2025-06-13T19:48:25.326449+05:30 kali lightdm: gkr-pam: unlocked login keyring
+2025-06-13T19:48:32.120150+05:30 kali polkitd[629]: Registered Authentication Agent for unix-session:13 (system bus name :1.115 [/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1], object path /org/gnome/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+2025-06-13T19:48:35.379674+05:30 kali (sd-pam): pam_unix(systemd-user:session): session closed for user lightdm
+2025-06-13T19:48:35.381988+05:30 kali systemd-logind[631]: Removed session 12.
+2025-06-13T19:48:44.987119+05:30 kali sudo:     kali : TTY=pts/1 ; PWD=/home/kali ; USER=root ; COMMAND=/usr/bin/su
+2025-06-13T19:48:44.989658+05:30 kali sudo: pam_unix(sudo:session): session opened for user root(uid=0) by kali(uid=1000)
+2025-06-13T19:48:45.012724+05:30 kali su[22760]: (to root) root on pts/2
+2025-06-13T19:48:45.013600+05:30 kali su[22760]: pam_unix(su:session): session opened for user root(uid=0) by kali(uid=0)
+2025-06-13T19:48:54.095502+05:30 kali su[22760]: pam_unix(su:session): session closed for user root
+2025-06-13T19:48:54.105303+05:30 kali sudo: pam_unix(sudo:session): session closed for user root
+2025-06-13T19:50:11.551244+05:30 kali sudo:     kali : TTY=pts/1 ; PWD=/home/kali ; USER=root ; COMMAND=/usr/bin/su
+2025-06-13T19:50:11.553238+05:30 kali sudo: pam_unix(sudo:session): session opened for user root(uid=0) by kali(uid=1000)
+2025-06-13T19:50:11.571050+05:30 kali su[23470]: (to root) root on pts/2
+2025-06-13T19:50:11.572507+05:30 kali su[23470]: pam_unix(su:session): session opened for user root(uid=0) by kali(uid=0)
+2025-06-13T19:50:14.268831+05:30 kali su[23470]: pam_unix(su:session): session closed for user root
+2025-06-13T19:50:14.278191+05:30 kali sudo: pam_unix(sudo:session): session closed for user root
+2025-06-13T19:50:44.726061+05:30 kali sudo:     kali : TTY=pts/1 ; PWD=/home/kali ; USER=root ; COMMAND=/usr/bin/apt-get update
+2025-06-13T19:50:44.727625+05:30 kali sudo: pam_unix(sudo:session): session opened for user root(uid=0) by kali(uid=1000)
+2025-06-13T19:51:03.122698+05:30 kali sudo: pam_unix(sudo:session): session closed for user root
+2025-06-13T19:54:26.672409+05:30 kali sudo:     kali : TTY=pts/1 ; PWD=/home/kali ; USER=root ; COMMAND=/usr/bin/apt-get update
+2025-06-13T19:54:26.682070+05:30 kali sudo: pam_unix(sudo:session): session opened for user root(uid=0) by kali(uid=1000)
+2025-06-13T19:54:37.022844+05:30 kali sudo: pam_unix(sudo:session): session closed for user root
+2025-06-13T19:54:47.403002+05:30 kali sudo:     kali : TTY=pts/1 ; PWD=/home/kali ; USER=root ; COMMAND=/usr/bin/apt-get install syslog-ng -y
+2025-06-13T19:54:47.406864+05:30 kali sudo: pam_unix(sudo:session): session opened for user root(uid=0) by kali(uid=1000)
+2025-06-13T19:55:02.015687+05:30 kali CRON[25992]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-06-13T19:55:02.026405+05:30 kali CRON[25992]: pam_unix(cron:session): session closed for user root
+2025-06-13T19:56:48.142342+05:30 kali polkitd[629]: Reloading rules
+2025-06-13T19:56:48.147426+05:30 kali polkitd[629]: Collecting garbage unconditionally...
+2025-06-13T19:56:48.147907+05:30 kali polkitd[629]: Loading rules from directory /etc/polkit-1/rules.d
+2025-06-13T19:56:48.148239+05:30 kali polkitd[629]: Loading rules from directory /run/polkit-1/rules.d
+2025-06-13T19:56:48.148343+05:30 kali polkitd[629]: Error opening rules directory: Error opening directory “/run/polkit-1/rules.d”: No such file or directory (g-file-error-quark, 4)
+2025-06-13T19:56:48.148562+05:30 kali polkitd[629]: Loading rules from directory /usr/local/share/polkit-1/rules.d
+2025-06-13T19:56:48.148825+05:30 kali polkitd[629]: Error opening rules directory: Error opening directory “/usr/local/share/polkit-1/rules.d”: No such file or directory (g-file-error-quark, 4)
+2025-06-13T19:56:48.149119+05:30 kali polkitd[629]: Loading rules from directory /usr/share/polkit-1/rules.d
+2025-06-13T19:56:48.154210+05:30 kali polkitd[629]: Finished loading, compiling and executing 8 rules
+2025-06-13T19:56:48.154500+05:30 kali polkitd[629]: Reloading rules
+2025-06-13T19:56:48.154776+05:30 kali polkitd[629]: Collecting garbage unconditionally...
+2025-06-13T19:56:48.155329+05:30 kali polkitd[629]: Loading rules from directory /etc/polkit-1/rules.d
+2025-06-13T19:56:48.156032+05:30 kali polkitd[629]: Loading rules from directory /run/polkit-1/rules.d
+2025-06-13T19:56:48.156211+05:30 kali polkitd[629]: Error opening rules directory: Error opening directory “/run/polkit-1/rules.d”: No such file or directory (g-file-error-quark, 4)
+2025-06-13T19:56:48.156301+05:30 kali polkitd[629]: Loading rules from directory /usr/local/share/polkit-1/rules.d
+2025-06-13T19:56:48.157154+05:30 kali polkitd[629]: Error opening rules directory: Error opening directory “/usr/local/share/polkit-1/rules.d”: No such file or directory (g-file-error-quark, 4)
+2025-06-13T19:56:48.157306+05:30 kali polkitd[629]: Loading rules from directory /usr/share/polkit-1/rules.d
+2025-06-13T19:56:48.160212+05:30 kali polkitd[629]: Finished loading, compiling and executing 8 rules
+2025-06-13T20:07:41.237100+05:30 kali sudo: pam_unix(sudo:session): session closed for user root
+2025-06-13T20:08:28.187230+05:30 kali sudo:     kali : TTY=pts/1 ; PWD=/home/kali ; USER=root ; COMMAND=/usr/bin/apt-get install rsyslog -y
+2025-06-13T20:08:28.189240+05:30 kali sudo: pam_unix(sudo:session): session opened for user root(uid=0) by kali(uid=1000)
+2025-06-13T20:08:29.872832+05:30 kali sudo: pam_unix(sudo:session): session closed for user root
+2025-06-13T20:08:43.404662+05:30 kali sudo:     kali : TTY=pts/1 ; PWD=/home/kali ; USER=root ; COMMAND=/usr/bin/systemctl start rsyslog
+2025-06-13T20:08:43.406700+05:30 kali sudo: pam_unix(sudo:session): session opened for user root(uid=0) by kali(uid=1000)
+2025-06-13T20:08:43.437075+05:30 kali sudo: pam_unix(sudo:session): session closed for user root
+2025-06-13T20:09:01.116772+05:30 kali CRON[38550]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-06-13T20:09:01.128832+05:30 kali CRON[38550]: pam_unix(cron:session): session closed for user root
+2025-06-13T20:10:02.672402+05:30 kali sudo:     kali : TTY=pts/1 ; PWD=/home/kali ; USER=root ; COMMAND=/usr/bin/nano /etc/rsyslog.conf
+2025-06-13T20:10:02.677794+05:30 kali sudo: pam_unix(sudo:session): session opened for user root(uid=0) by kali(uid=1000)
+2025-06-13T20:10:41.912084+05:30 kali sudo: pam_unix(sudo:session): session closed for user root
+2025-06-13T20:10:52.647156+05:30 kali sudo:     kali : TTY=pts/1 ; PWD=/home/kali ; USER=root ; COMMAND=/usr/bin/systemctl restart rsyslog
+2025-06-13T20:10:52.648643+05:30 kali sudo: pam_unix(sudo:session): session opened for user root(uid=0) by kali(uid=1000)

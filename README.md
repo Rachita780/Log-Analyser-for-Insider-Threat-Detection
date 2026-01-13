@@ -1,2 +1,17 @@
-# Log-Analyser-for-Insider-Threat-Detection
-A lightweight, rule-based log analyzer for detecting insider threats using Linux authentication logs. The system identifies suspicious activities such as brute-force login attempts, odd-hour access, and privilege misuse, assigns risk scores, and provides interactive dashboards and automated reports for effective security monitoring.
+# Log Analyzer for Insider Threat Detection
+
+A rule-based system for detecting insider threats using Linux authentication logs.
+
+## Features
+- Brute-force login detection
+- Odd-hour access detection
+- Privilege misuse monitoring
+- Risk scoring
+- Dashboard and automated reports
+
+## Technologies
+Python, Pandas, Streamlit
+
+## How to Run
+pip install -r requirements.txt
+streamlit run src/dashboard.py
