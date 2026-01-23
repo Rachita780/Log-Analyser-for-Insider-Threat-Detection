@@ -2,13 +2,13 @@
 
 An automated, rule-based security analysis system designed to detect insider threats by examining Linux authentication and system logs. The project combines structured log parsing, threat detection rules, risk scoring, and a web-based dashboard to provide fast, accurate, and actionable security insights.
 
-# Introduction
+## Introduction
 
 Insider threats remain one of the most challenging security risks for organizations, as malicious or negligent users often have legitimate access to internal systems. Traditional security mechanisms primarily focus on external attackers and frequently overlook abnormal internal behavior.
 
 This project addresses this gap by developing a lightweight and easily deployable log analysis system that automatically inspects Linux authentication logs (auth.log) to detect suspicious activities such as brute-force attempts, odd-hour access, and misuse of administrative privileges. The system assists security analysts in identifying high-risk users early and responding effectively.
 
-# Objectives 
+## Objectives 
 
 - To automate the analysis of Linux authentication logs
 - To detect suspicious insider activities using rule-based detection
