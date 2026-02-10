@@ -1,4 +1,4 @@
-# Log Analyzer for Insider Threat Detection
+# Insider Threat Detection Using Linux Authentication Logs
 
 An automated, rule-based security analysis system designed to detect insider threats by examining Linux authentication and system logs. The project combines structured log parsing, threat detection rules, risk scoring, and a web-based dashboard to provide fast, accurate, and actionable security insights.
 
